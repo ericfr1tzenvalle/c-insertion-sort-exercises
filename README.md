@@ -1,21 +1,39 @@
-# Ordenação em C: Insertion Sort e Selection Sort
+# 🧮 Ordenação em C: Algoritmos Clássicos com Explicações
 
-Este projeto em C implementa dois algoritmos clássicos de ordenação:
+Este repositório contém implementações em linguagem C de algoritmos clássicos de ordenação, com comentários detalhados e exemplos simples para facilitar o entendimento.
 
-- **Insertion Sort** (Ordenação por Inserção)
-- **Selection Sort** (Ordenação por Seleção)
+## 📂 Arquivos
+
+- `ordenacao.c`: versão básica com apenas **Insertion Sort** e **Selection Sort**.
+- `ordenacao-2.c`: versão completa com **Insertion**, **Selection**, **Bubble** e **Quick Sort**, todos comentados passo a passo em linguagem simples.
+
+---
+
+## ⚙️ Algoritmos implementados
+
+### ✅ Insertion Sort (Ordenação por Inserção)
+Percorre o array da esquerda para a direita, inserindo cada elemento na sua posição correta comparando com os anteriores.
+
+### ✅ Selection Sort (Ordenação por Seleção)
+Percorre o array procurando o menor elemento restante e trocando com a posição atual.
+
+### ✅ Bubble Sort (Ordenação por Flutuação)
+Compara pares adjacentes e troca se estiverem fora de ordem. Os maiores "borbulham" para o final.
+
+### ✅ Quick Sort (Ordenação Rápida)
+Escolhe um pivô, particiona os elementos menores à esquerda e maiores à direita, e aplica recursivamente.
+
+---
 
 ## 📋 Descrição
 
-O programa cria um array de 20 números inteiros aleatórios (entre 1 e 100) e aplica os dois métodos de ordenação em **ordem crescente**. O array original é mantido para comparação entre os resultados dos dois algoritmos.
+O programa gera um array com 20 números aleatórios (entre 1 e 30) e aplica os métodos de ordenação. Os algoritmos estão explicados com **comentários antes e dentro das funções**, incluindo exemplos em **linguagem natural** para facilitar o aprendizado.
 
-### Algoritmos implementados
-
-- `InsertionSort`: percorre o array da esquerda para a direita, inserindo cada elemento na posição correta.
-- `SelectionSort`: seleciona o menor elemento do restante do array e o coloca na posição correta.
+---
 
 ## 🛠️ Como compilar e executar
 
-1. Compile o código:
+1. Compile com o GCC:
+
    ```bash
-   gcc ordenacao.c -o ordenacao
+   gcc ordenacao-2.c -o ordenacao
