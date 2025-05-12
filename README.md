@@ -1,6 +1,6 @@
 # 🧮 Ordenação em C: Algoritmos Clássicos com Explicações
 
-> This repository contains classic sorting algorithms implemented in C, with simple examples and detailed comments to help beginners understand how each algorithm works.
+> *This repository contains classic sorting algorithms implemented in C, with simple examples and detailed comments to help beginners understand how each algorithm works.*
 
 Este repositório contém implementações em linguagem C de algoritmos clássicos de ordenação, com comentários detalhados e exemplos simples para facilitar o entendimento.
 
@@ -14,19 +14,23 @@ Este repositório contém implementações em linguagem C de algoritmos clássic
 ## ⚙️ Algoritmos implementados
 
 ### ✅ Insertion Sort (Ordenação por Inserção)
-> Goes through the array from left to right, inserting each element into its correct position by comparing it with the previous ones.  
+> *Goes through the array from left to right, inserting each element into its correct position by comparing it with the previous ones.*
+
 Percorre o array da esquerda para a direita, inserindo cada elemento na sua posição correta comparando com os anteriores.
 
 ### ✅ Selection Sort (Ordenação por Seleção)
-> Repeatedly finds the smallest element in the unsorted part and swaps it with the current position.  
+> *Repeatedly finds the smallest element in the unsorted part and swaps it with the current position.*
+
 Percorre o array procurando o menor elemento restante e trocando com a posição atual.
 
 ### ✅ Bubble Sort (Ordenação por Flutuação)
-> Compares adjacent pairs and swaps them if they are in the wrong order; largest elements "bubble up" to the end.  
+> *Compares adjacent pairs and swaps them if they are in the wrong order; largest elements "bubble up" to the end.*
+
 Compara pares adjacentes e troca se estiverem fora de ordem. Os maiores "borbulham" para o final.
 
 ### ✅ Quick Sort (Ordenação Rápida)
-> Selects a pivot, partitions the array so that smaller elements go to the left and larger ones to the right, and applies the algorithm recursively.  
+> *Selects a pivot, partitions the array so that smaller elements go to the left and larger ones to the right, and applies the algorithm recursively.*
+
 Escolhe um pivô, particiona os elementos menores à esquerda e maiores à direita, e aplica recursivamente.
 
 ---
