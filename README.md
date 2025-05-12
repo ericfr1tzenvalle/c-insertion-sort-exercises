@@ -1,5 +1,7 @@
 # 🧮 Ordenação em C: Algoritmos Clássicos com Explicações
 
+> This repository contains classic sorting algorithms implemented in C, with simple examples and detailed comments to help beginners understand how each algorithm works.
+
 Este repositório contém implementações em linguagem C de algoritmos clássicos de ordenação, com comentários detalhados e exemplos simples para facilitar o entendimento.
 
 ## 📂 Arquivos
